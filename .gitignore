@@ -1,0 +1,14 @@
+# IDEs and editors
+.idea/
+.vscode/
+
+# Claude Code CLI folders
+.claude/
+memory/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Keep log text files out
+run_all_output.txt
