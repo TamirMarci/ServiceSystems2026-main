@@ -6,7 +6,7 @@
       "driver_id": "d1",
       "vehicle_id": "v2",
       "shift_start_min": 285,
-      "shift_end_min": 810,
+      "shift_end_min": 795,
       "break_start_min": 553,
       "break_end_min": 613,
       "break_location": "B",
@@ -148,20 +148,14 @@
           "type": "wait",
           "at": "A",
           "start_min": 752,
-          "end_min": 760
-        },
-        {
-          "type": "service",
-          "trip_id": 60,
-          "start_min": 760,
-          "end_min": 792
+          "end_min": 780
         },
         {
           "type": "deadhead",
-          "from": "B",
+          "from": "A",
           "to": "D",
-          "start_min": 792,
-          "end_min": 810
+          "start_min": 780,
+          "end_min": 795
         }
       ]
     },
@@ -338,9 +332,9 @@
     {
       "duty_id": "k3",
       "driver_id": "d3",
-      "vehicle_id": "v4",
-      "shift_start_min": 360,
-      "shift_end_min": 900,
+      "vehicle_id": "v5",
+      "shift_start_min": 405,
+      "shift_end_min": 885,
       "break_start_min": 624,
       "break_end_min": 684,
       "break_location": "A",
@@ -349,37 +343,13 @@
           "type": "deadhead",
           "from": "D",
           "to": "A",
-          "start_min": 360,
-          "end_min": 373
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 373,
-          "end_min": 375
-        },
-        {
-          "type": "service",
-          "trip_id": 7,
-          "start_min": 375,
-          "end_min": 402
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 402,
-          "end_min": 405
-        },
-        {
-          "type": "service",
-          "trip_id": 12,
           "start_min": 405,
-          "end_min": 431
+          "end_min": 418
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 431,
+          "start_min": 418,
           "end_min": 440
         },
         {
@@ -470,35 +440,23 @@
           "type": "wait",
           "at": "B",
           "start_min": 832,
-          "end_min": 840
-        },
-        {
-          "type": "service",
-          "trip_id": 70,
-          "start_min": 840,
-          "end_min": 872
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 872,
-          "end_min": 885
+          "end_min": 867
         },
         {
           "type": "deadhead",
-          "from": "A",
+          "from": "B",
           "to": "D",
-          "start_min": 885,
-          "end_min": 900
+          "start_min": 867,
+          "end_min": 885
         }
       ]
     },
     {
       "duty_id": "k4",
       "driver_id": "d4",
-      "vehicle_id": "v3",
-      "shift_start_min": 345,
-      "shift_end_min": 870,
+      "vehicle_id": "v6",
+      "shift_start_min": 405,
+      "shift_end_min": 885,
       "break_start_min": 613,
       "break_end_min": 673,
       "break_location": "B",
@@ -507,37 +465,13 @@
           "type": "deadhead",
           "from": "D",
           "to": "B",
-          "start_min": 345,
-          "end_min": 365
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 365,
-          "end_min": 375
-        },
-        {
-          "type": "service",
-          "trip_id": 8,
-          "start_min": 375,
-          "end_min": 401
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 401,
-          "end_min": 405
-        },
-        {
-          "type": "service",
-          "trip_id": 11,
           "start_min": 405,
-          "end_min": 432
+          "end_min": 425
         },
         {
           "type": "wait",
           "at": "B",
-          "start_min": 432,
+          "start_min": 425,
           "end_min": 440
         },
         {
@@ -637,23 +571,29 @@
           "end_min": 852
         },
         {
+          "type": "wait",
+          "at": "B",
+          "start_min": 852,
+          "end_min": 867
+        },
+        {
           "type": "deadhead",
           "from": "B",
           "to": "D",
-          "start_min": 852,
-          "end_min": 870
+          "start_min": 867,
+          "end_min": 885
         }
       ]
     },
     {
       "duty_id": "k5",
       "driver_id": "d5",
-      "vehicle_id": "v5",
+      "vehicle_id": "v7",
       "shift_start_min": 405,
-      "shift_end_min": 915,
-      "break_start_min": 672,
-      "break_end_min": 732,
-      "break_location": "B",
+      "shift_end_min": 885,
+      "break_start_min": 609,
+      "break_end_min": 669,
+      "break_location": "A",
       "activities": [
         {
           "type": "deadhead",
@@ -711,66 +651,80 @@
           "end_min": 609
         },
         {
-          "type": "wait",
+          "type": "break",
           "at": "A",
           "start_min": 609,
-          "end_min": 640
-        },
-        {
-          "type": "service",
-          "trip_id": 49,
-          "start_min": 640,
-          "end_min": 672
-        },
-        {
-          "type": "break",
-          "at": "B",
-          "start_min": 672,
-          "end_min": 732
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 732,
-          "end_min": 795
-        },
-        {
-          "type": "service",
-          "trip_id": 64,
-          "start_min": 795,
-          "end_min": 827
+          "end_min": 669
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 827,
-          "end_min": 840
+          "start_min": 669,
+          "end_min": 680
         },
         {
           "type": "service",
-          "trip_id": 69,
-          "start_min": 840,
-          "end_min": 872
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 872,
-          "end_min": 897
+          "trip_id": 53,
+          "start_min": 680,
+          "end_min": 712
         },
         {
           "type": "deadhead",
           "from": "B",
           "to": "D",
-          "start_min": 897,
-          "end_min": 915
+          "start_min": 712,
+          "end_min": 730
+        },
+        {
+          "type": "deadhead",
+          "from": "D",
+          "to": "A",
+          "start_min": 730,
+          "end_min": 745
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 745,
+          "end_min": 760
+        },
+        {
+          "type": "service",
+          "trip_id": 60,
+          "start_min": 760,
+          "end_min": 792
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 792,
+          "end_min": 810
+        },
+        {
+          "type": "service",
+          "trip_id": 66,
+          "start_min": 810,
+          "end_min": 842
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 842,
+          "end_min": 870
+        },
+        {
+          "type": "deadhead",
+          "from": "A",
+          "to": "D",
+          "start_min": 870,
+          "end_min": 885
         }
       ]
     },
     {
       "duty_id": "k6",
       "driver_id": "d6",
-      "vehicle_id": "v6",
+      "vehicle_id": "v8",
       "shift_start_min": 405,
       "shift_end_min": 915,
       "break_start_min": 672,
@@ -904,24 +858,48 @@
     {
       "duty_id": "k7",
       "driver_id": "d7",
-      "vehicle_id": "v9",
-      "shift_start_min": 420,
-      "shift_end_min": 960,
-      "break_start_min": 712,
-      "break_end_min": 772,
+      "vehicle_id": "v4",
+      "shift_start_min": 360,
+      "shift_end_min": 840,
+      "break_start_min": 583,
+      "break_end_min": 643,
       "break_location": "B",
       "activities": [
         {
           "type": "deadhead",
           "from": "D",
           "to": "A",
-          "start_min": 420,
-          "end_min": 446
+          "start_min": 360,
+          "end_min": 373
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 446,
+          "start_min": 373,
+          "end_min": 375
+        },
+        {
+          "type": "service",
+          "trip_id": 7,
+          "start_min": 375,
+          "end_min": 402
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 402,
+          "end_min": 405
+        },
+        {
+          "type": "service",
+          "trip_id": 12,
+          "start_min": 405,
+          "end_min": 431
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 431,
           "end_min": 450
         },
         {
@@ -955,80 +933,32 @@
           "end_min": 583
         },
         {
-          "type": "wait",
-          "at": "B",
-          "start_min": 583,
-          "end_min": 600
-        },
-        {
-          "type": "service",
-          "trip_id": 46,
-          "start_min": 600,
-          "end_min": 632
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 632,
-          "end_min": 680
-        },
-        {
-          "type": "service",
-          "trip_id": 53,
-          "start_min": 680,
-          "end_min": 712
-        },
-        {
           "type": "break",
           "at": "B",
-          "start_min": 712,
-          "end_min": 772
+          "start_min": 583,
+          "end_min": 643
         },
         {
           "type": "wait",
           "at": "B",
-          "start_min": 772,
-          "end_min": 810
-        },
-        {
-          "type": "service",
-          "trip_id": 66,
-          "start_min": 810,
-          "end_min": 842
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 842,
-          "end_min": 880
-        },
-        {
-          "type": "service",
-          "trip_id": 73,
-          "start_min": 880,
-          "end_min": 912
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 912,
-          "end_min": 924
+          "start_min": 643,
+          "end_min": 822
         },
         {
           "type": "deadhead",
           "from": "B",
           "to": "D",
-          "start_min": 924,
-          "end_min": 960
+          "start_min": 822,
+          "end_min": 840
         }
       ]
     },
     {
       "duty_id": "k8",
       "driver_id": "d8",
-      "vehicle_id": "v8",
+      "vehicle_id": "v9",
       "shift_start_min": 420,
-      "shift_end_min": 945,
+      "shift_end_min": 900,
       "break_start_min": 632,
       "break_end_min": 692,
       "break_location": "B",
@@ -1098,50 +1028,74 @@
           "type": "wait",
           "at": "B",
           "start_min": 692,
-          "end_min": 870
+          "end_min": 840
         },
         {
           "type": "service",
-          "trip_id": 72,
-          "start_min": 870,
-          "end_min": 902
+          "trip_id": 70,
+          "start_min": 840,
+          "end_min": 872
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 902,
-          "end_min": 915
+          "start_min": 872,
+          "end_min": 885
         },
         {
           "type": "deadhead",
           "from": "A",
           "to": "D",
-          "start_min": 915,
-          "end_min": 945
+          "start_min": 885,
+          "end_min": 900
         }
       ]
     },
     {
       "duty_id": "k9",
       "driver_id": "d9",
-      "vehicle_id": "v7",
-      "shift_start_min": 420,
-      "shift_end_min": 900,
-      "break_start_min": 600,
-      "break_end_min": 660,
+      "vehicle_id": "v3",
+      "shift_start_min": 345,
+      "shift_end_min": 840,
+      "break_start_min": 594,
+      "break_end_min": 654,
       "break_location": "A",
       "activities": [
         {
           "type": "deadhead",
           "from": "D",
           "to": "B",
-          "start_min": 420,
-          "end_min": 448
+          "start_min": 345,
+          "end_min": 365
         },
         {
           "type": "wait",
           "at": "B",
-          "start_min": 448,
+          "start_min": 365,
+          "end_min": 375
+        },
+        {
+          "type": "service",
+          "trip_id": 8,
+          "start_min": 375,
+          "end_min": 401
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 401,
+          "end_min": 405
+        },
+        {
+          "type": "service",
+          "trip_id": 11,
+          "start_min": 405,
+          "end_min": 432
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 432,
           "end_min": 460
         },
         {
@@ -1175,29 +1129,23 @@
           "end_min": 594
         },
         {
-          "type": "wait",
-          "at": "A",
-          "start_min": 594,
-          "end_min": 600
-        },
-        {
           "type": "break",
           "at": "A",
-          "start_min": 600,
-          "end_min": 660
+          "start_min": 594,
+          "end_min": 654
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 660,
-          "end_min": 885
+          "start_min": 654,
+          "end_min": 825
         },
         {
           "type": "deadhead",
           "from": "A",
           "to": "D",
-          "start_min": 885,
-          "end_min": 900
+          "start_min": 825,
+          "end_min": 840
         }
       ]
     },
@@ -1234,6 +1182,30 @@
           "type": "wait",
           "at": "B",
           "start_min": 598,
+          "end_min": 600
+        },
+        {
+          "type": "service",
+          "trip_id": 46,
+          "start_min": 600,
+          "end_min": 632
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 632,
+          "end_min": 640
+        },
+        {
+          "type": "service",
+          "trip_id": 49,
+          "start_min": 640,
+          "end_min": 672
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 672,
           "end_min": 705
         },
         {
@@ -1246,6 +1218,30 @@
           "type": "wait",
           "at": "B",
           "start_min": 765,
+          "end_min": 795
+        },
+        {
+          "type": "service",
+          "trip_id": 64,
+          "start_min": 795,
+          "end_min": 827
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 827,
+          "end_min": 840
+        },
+        {
+          "type": "service",
+          "trip_id": 69,
+          "start_min": 840,
+          "end_min": 872
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 872,
           "end_min": 900
         },
         {
@@ -1308,9 +1304,9 @@
     {
       "duty_id": "k11",
       "driver_id": "d11",
-      "vehicle_id": "v2",
+      "vehicle_id": "v3",
       "shift_start_min": 885,
-      "shift_end_min": 1515,
+      "shift_end_min": 1410,
       "break_start_min": 1157,
       "break_end_min": 1217,
       "break_location": "B",
@@ -1446,47 +1442,23 @@
           "type": "wait",
           "at": "A",
           "start_min": 1374,
-          "end_min": 1380
-        },
-        {
-          "type": "service",
-          "trip_id": 135,
-          "start_min": 1380,
-          "end_min": 1404
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 1404,
-          "end_min": 1470
-        },
-        {
-          "type": "service",
-          "trip_id": 140,
-          "start_min": 1470,
-          "end_min": 1494
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 1494,
-          "end_min": 1500
+          "end_min": 1395
         },
         {
           "type": "deadhead",
           "from": "A",
           "to": "D",
-          "start_min": 1500,
-          "end_min": 1515
+          "start_min": 1395,
+          "end_min": 1410
         }
       ]
     },
     {
       "duty_id": "k12",
       "driver_id": "d12",
-      "vehicle_id": "v3",
+      "vehicle_id": "v4",
       "shift_start_min": 885,
-      "shift_end_min": 1515,
+      "shift_end_min": 1410,
       "break_start_min": 1169,
       "break_end_min": 1229,
       "break_location": "A",
@@ -1604,38 +1576,14 @@
           "type": "wait",
           "at": "B",
           "start_min": 1374,
-          "end_min": 1380
-        },
-        {
-          "type": "service",
-          "trip_id": 136,
-          "start_min": 1380,
-          "end_min": 1404
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 1404,
-          "end_min": 1470
-        },
-        {
-          "type": "service",
-          "trip_id": 139,
-          "start_min": 1470,
-          "end_min": 1494
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 1494,
-          "end_min": 1496
+          "end_min": 1391
         },
         {
           "type": "deadhead",
           "from": "B",
           "to": "D",
-          "start_min": 1496,
-          "end_min": 1515
+          "start_min": 1391,
+          "end_min": 1410
         }
       ]
     },
@@ -1643,7 +1591,7 @@
       "duty_id": "k13",
       "driver_id": "d13",
       "vehicle_id": "v1",
-      "shift_start_min": 885,
+      "shift_start_min": 840,
       "shift_end_min": 1425,
       "break_start_min": 1172,
       "break_end_min": 1232,
@@ -1652,14 +1600,26 @@
         {
           "type": "deadhead",
           "from": "D",
-          "to": "A",
-          "start_min": 885,
-          "end_min": 900
+          "to": "B",
+          "start_min": 840,
+          "end_min": 858
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 858,
+          "end_min": 870
+        },
+        {
+          "type": "service",
+          "trip_id": 72,
+          "start_min": 870,
+          "end_min": 902
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 900,
+          "start_min": 902,
           "end_min": 920
         },
         {
@@ -1726,18 +1686,18 @@
           "type": "wait",
           "at": "B",
           "start_min": 1232,
-          "end_min": 1240
+          "end_min": 1260
         },
         {
           "type": "service",
-          "trip_id": 126,
-          "start_min": 1240,
-          "end_min": 1264
+          "trip_id": 128,
+          "start_min": 1260,
+          "end_min": 1284
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 1264,
+          "start_min": 1284,
           "end_min": 1290
         },
         {
@@ -1750,13 +1710,25 @@
           "type": "wait",
           "at": "B",
           "start_min": 1314,
-          "end_min": 1406
+          "end_min": 1380
+        },
+        {
+          "type": "service",
+          "trip_id": 136,
+          "start_min": 1380,
+          "end_min": 1404
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 1404,
+          "end_min": 1410
         },
         {
           "type": "deadhead",
-          "from": "B",
+          "from": "A",
           "to": "D",
-          "start_min": 1406,
+          "start_min": 1410,
           "end_min": 1425
         }
       ]
@@ -1764,11 +1736,11 @@
     {
       "duty_id": "k14",
       "driver_id": "d14",
-      "vehicle_id": "v11",
+      "vehicle_id": "v5",
       "shift_start_min": 885,
-      "shift_end_min": 1530,
-      "break_start_min": 1284,
-      "break_end_min": 1344,
+      "shift_end_min": 1515,
+      "break_start_min": 1264,
+      "break_end_min": 1324,
       "break_location": "A",
       "activities": [
         {
@@ -1854,41 +1826,65 @@
           "type": "wait",
           "at": "B",
           "start_min": 1224,
-          "end_min": 1260
+          "end_min": 1240
         },
         {
           "type": "service",
-          "trip_id": 128,
-          "start_min": 1260,
-          "end_min": 1284
+          "trip_id": 126,
+          "start_min": 1240,
+          "end_min": 1264
         },
         {
           "type": "break",
           "at": "A",
-          "start_min": 1284,
-          "end_min": 1344
+          "start_min": 1264,
+          "end_min": 1324
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 1344,
-          "end_min": 1515
+          "start_min": 1324,
+          "end_min": 1440
+        },
+        {
+          "type": "service",
+          "trip_id": 137,
+          "start_min": 1440,
+          "end_min": 1464
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 1464,
+          "end_min": 1470
+        },
+        {
+          "type": "service",
+          "trip_id": 140,
+          "start_min": 1470,
+          "end_min": 1494
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 1494,
+          "end_min": 1500
         },
         {
           "type": "deadhead",
           "from": "A",
           "to": "D",
-          "start_min": 1515,
-          "end_min": 1530
+          "start_min": 1500,
+          "end_min": 1515
         }
       ]
     },
     {
       "duty_id": "k15",
       "driver_id": "d15",
-      "vehicle_id": "v7",
+      "vehicle_id": "v6",
       "shift_start_min": 900,
-      "shift_end_min": 1485,
+      "shift_end_min": 1515,
       "break_start_min": 1244,
       "break_end_min": 1304,
       "break_location": "B",
@@ -1994,23 +1990,47 @@
           "type": "wait",
           "at": "B",
           "start_min": 1304,
-          "end_min": 1466
+          "end_min": 1440
+        },
+        {
+          "type": "service",
+          "trip_id": 138,
+          "start_min": 1440,
+          "end_min": 1464
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 1464,
+          "end_min": 1470
+        },
+        {
+          "type": "service",
+          "trip_id": 139,
+          "start_min": 1470,
+          "end_min": 1494
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 1494,
+          "end_min": 1496
         },
         {
           "type": "deadhead",
           "from": "B",
           "to": "D",
-          "start_min": 1466,
-          "end_min": 1485
+          "start_min": 1496,
+          "end_min": 1515
         }
       ]
     },
     {
       "duty_id": "k16",
       "driver_id": "d16",
-      "vehicle_id": "v4",
-      "shift_start_min": 900,
-      "shift_end_min": 1425,
+      "vehicle_id": "v8",
+      "shift_start_min": 960,
+      "shift_end_min": 1440,
       "break_start_min": 1179,
       "break_end_min": 1239,
       "break_location": "A",
@@ -2018,26 +2038,14 @@
         {
           "type": "deadhead",
           "from": "D",
-          "to": "B",
-          "start_min": 900,
-          "end_min": 936
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 936,
-          "end_min": 945
-        },
-        {
-          "type": "service",
-          "trip_id": 80,
-          "start_min": 945,
-          "end_min": 989
+          "to": "A",
+          "start_min": 960,
+          "end_min": 988
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 989,
+          "start_min": 988,
           "end_min": 990
         },
         {
@@ -2092,21 +2100,33 @@
           "type": "wait",
           "at": "A",
           "start_min": 1239,
-          "end_min": 1410
+          "end_min": 1380
+        },
+        {
+          "type": "service",
+          "trip_id": 135,
+          "start_min": 1380,
+          "end_min": 1404
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 1404,
+          "end_min": 1421
         },
         {
           "type": "deadhead",
-          "from": "A",
+          "from": "B",
           "to": "D",
-          "start_min": 1410,
-          "end_min": 1425
+          "start_min": 1421,
+          "end_min": 1440
         }
       ]
     },
     {
       "duty_id": "k17",
       "driver_id": "d17",
-      "vehicle_id": "v5",
+      "vehicle_id": "v7",
       "shift_start_min": 930,
       "shift_end_min": 1455,
       "break_start_min": 1209,
@@ -2204,24 +2224,48 @@
     {
       "duty_id": "k18",
       "driver_id": "d18",
-      "vehicle_id": "v6",
-      "shift_start_min": 960,
-      "shift_end_min": 1485,
-      "break_start_min": 1224,
-      "break_end_min": 1284,
+      "vehicle_id": "v2",
+      "shift_start_min": 855,
+      "shift_end_min": 1335,
+      "break_start_min": 1094,
+      "break_end_min": 1154,
       "break_location": "A",
       "activities": [
         {
           "type": "deadhead",
           "from": "D",
           "to": "A",
-          "start_min": 960,
-          "end_min": 988
+          "start_min": 855,
+          "end_min": 870
         },
         {
           "type": "wait",
           "at": "A",
-          "start_min": 988,
+          "start_min": 870,
+          "end_min": 880
+        },
+        {
+          "type": "service",
+          "trip_id": 73,
+          "start_min": 880,
+          "end_min": 912
+        },
+        {
+          "type": "wait",
+          "at": "B",
+          "start_min": 912,
+          "end_min": 945
+        },
+        {
+          "type": "service",
+          "trip_id": 80,
+          "start_min": 945,
+          "end_min": 989
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 989,
           "end_min": 1000
         },
         {
@@ -2243,9 +2287,15 @@
           "end_min": 1094
         },
         {
-          "type": "wait",
+          "type": "break",
           "at": "A",
           "start_min": 1094,
+          "end_min": 1154
+        },
+        {
+          "type": "wait",
+          "at": "A",
+          "start_min": 1154,
           "end_min": 1170
         },
         {
@@ -2267,44 +2317,26 @@
           "end_min": 1224
         },
         {
-          "type": "break",
+          "type": "wait",
           "at": "A",
           "start_min": 1224,
-          "end_min": 1284
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 1284,
-          "end_min": 1440
-        },
-        {
-          "type": "service",
-          "trip_id": 137,
-          "start_min": 1440,
-          "end_min": 1464
-        },
-        {
-          "type": "wait",
-          "at": "B",
-          "start_min": 1464,
-          "end_min": 1466
+          "end_min": 1320
         },
         {
           "type": "deadhead",
-          "from": "B",
+          "from": "A",
           "to": "D",
-          "start_min": 1466,
-          "end_min": 1485
+          "start_min": 1320,
+          "end_min": 1335
         }
       ]
     },
     {
       "duty_id": "k19",
       "driver_id": "d19",
-      "vehicle_id": "v8",
+      "vehicle_id": "v9",
       "shift_start_min": 960,
-      "shift_end_min": 1485,
+      "shift_end_min": 1455,
       "break_start_min": 1209,
       "break_end_min": 1269,
       "break_location": "B",
@@ -2374,26 +2406,14 @@
           "type": "wait",
           "at": "B",
           "start_min": 1269,
-          "end_min": 1440
-        },
-        {
-          "type": "service",
-          "trip_id": 138,
-          "start_min": 1440,
-          "end_min": 1464
-        },
-        {
-          "type": "wait",
-          "at": "A",
-          "start_min": 1464,
-          "end_min": 1470
+          "end_min": 1436
         },
         {
           "type": "deadhead",
-          "from": "A",
+          "from": "B",
           "to": "D",
-          "start_min": 1470,
-          "end_min": 1485
+          "start_min": 1436,
+          "end_min": 1455
         }
       ]
     }
